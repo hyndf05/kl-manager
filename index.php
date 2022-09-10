@@ -48,12 +48,12 @@
         <span class="pdes">선수들을 영입/방출하여 자신만의 팀을 창단할 수 있습니다.</span>
         <span class="pdes">영입 비용은 6/5/4/3/2/1 코인으로 지정되어 있으며, 초기 자본금으로 20코인을 지급합니다.</span>
         <span class="ptitle">포지션 안내</span>
-        <span class="pdes"><span class="b">SPEED ACE</span><span class="a">스피드전에 가장 능숙해 스피드전의 경기를 총괄하는 포지션입니다.</span></span>
-        <span class="pdes"><span class="b">RUNNER</span><span class="a">빠르게 트랙을 주파해 선두를 차지하는 포지션입니다.</span></span>
-        <span class="pdes"><span class="b">MIDDLE</span><span class="a">중위권에 머물며 상대를 교란, 팀을 지원하는 포지션입니다.</span></span>
-        <span class="pdes"><span class="b">SWEEPER</span><span class="a">몸싸움을 통해 상대를 방해하고 팀을 보호하는 포지션입니다.</span></span>
-        <span class="pdes"><span class="b">HYBRID</span><span class="a">아이템전과 스피드전 모두 균형잡힌 실력을 보이는 포지션입니다.</span></span>
-        <span class="pdes"><span class="b">ITEM ACE</span><span class="a">아이템전에 능숙해 아이템전의 경기를 총괄하는 포지션입니다.</span></span>
+        <span class="pdes"><span class="b">SPEED ACE:&nbsp;</span><span class="a">스피드전에 가장 능숙해 스피드전의 경기를 총괄하는 포지션입니다.</span></span>
+        <span class="pdes"><span class="b">RUNNER:&nbsp;</span><span class="a">빠르게 트랙을 주파해 선두를 차지하는 포지션입니다.</span></span>
+        <span class="pdes"><span class="b">MIDDLE:&nbsp;</span><span class="a">중위권에 머물며 상대를 교란, 팀을 지원하는 포지션입니다.</span></span>
+        <span class="pdes"><span class="b">SWEEPER:&nbsp;</span><span class="a">몸싸움을 통해 상대를 방해하고 팀을 보호하는 포지션입니다.</span></span>
+        <span class="pdes"><span class="b">HYBRID:&nbsp;</span><span class="a">아이템전과 스피드전 모두 균형잡힌 실력을 보이는 포지션입니다.</span></span>
+        <span class="pdes"><span class="b">ITEM ACE:&nbsp;</span><span class="a">아이템전에 능숙해 아이템전의 경기를 총괄하는 포지션입니다.</span></span>
       </div>
     </div> 
     <div class="wrap">
@@ -639,11 +639,15 @@
         <div class="inner">
           <div class="fn-line">
             <span class="h-title">제공</span>
-            <span class="h-user">연방봇</span>
+            <span class="h-user"><a href="//gall.dcinside.com/board/view/?id=kart&no=3267786&exception_mode=recommend&page=1">연방봇</a></span>
           </div>
           <div class="fn-line">
             <span class="h-title">제작</span>
-            <span class="h-user">223.38</span>
+            <span class="h-user"><a href="//instagram.com/hyndf05">hyndf05</a></span>
+          </div>
+          <div class="fn-line">
+            <span class="h-title">도움</span>
+            <span class="h-user"><a href="//instagram.com/drop_castle">떨어뜨린성</a></span>
           </div>
           <div class="fn-line">
             <span class="h-ver">KL MANAGER v1.0.1</span>
