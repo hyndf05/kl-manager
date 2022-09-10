@@ -1,4 +1,4 @@
-var coin = 17;
+var axCoin = 17;
 var runner;
 var speedAce;
 var middle;
@@ -10,7 +10,7 @@ var playerPurCoin;
 var stat;
 var userStat = 0;
 var playerCount = 0;
-  
+
 $('.tHeaderIcon').click(function(){
   $('body').removeClass('ves');
 })
@@ -24,7 +24,7 @@ $('.player-indi').click(function(){
 })
 
 $('.pa').click(function(){
-if ( coin >= playerPurCoin ) {
+if ( axCoin >= playerPurCoin ) {
 
 stat = $(this).attr('id');
 var ix = $(`.tables td#${stat} span`).length;
@@ -57,7 +57,7 @@ if (stat == 'speedAce') {
 } else {
   alert(`코인이 부족하여 ${touchedPlayer} 선수를 영입할 수 없습니다.`);
 }
-  
+
 })
 
 function playerSet(stat, touchedPlayer) {
@@ -65,13 +65,13 @@ alert(`${touchedPlayer} 선수를 영입하였습니다.`);
 playerCount ++;
 $(`.tables td#${stat}`).text(touchedPlayer);
 $(`.tables td#${stat}`).attr('co', playerPurCoin);
-  
+
 }
 
 function coinRefresh(playerPurCoin) {
-  var i = coin - playerPurCoin;
+  var i = axCoin - playerPurCoin;
   $('.users-coin').text(i);
-  coin = i;
+  axCoin = i;
 }
 
 $('.tables td').click(function(){
@@ -83,8 +83,8 @@ var reCoinSTR = parseInt(reCoin);
 $(`.player-indi#${removePlayer}`).removeClass('vsn');
 var userNowCoin = $('.users-coin').text();
 var userNowCoin2 = parseInt(userNowCoin);
-coin = userNowCoin2 + reCoinSTR;
-$('.users-coin').text(coin);
+axCoin = userNowCoin2 + reCoinSTR;
+$('.users-coin').text(axCoin);
 alert(`${removePlayer} 선수를 방출하였습니다.`);
 playerCount --;
 })
@@ -93,7 +93,7 @@ $('.total-player-btn').click(function(){
   var team = $('.team-name').val();
   var tl = team.length;
   if (tl > 0) {
-    
+
 
     var speedAceA = $('.tables td#speedAce').text();
     var runnerA = $('.tables td#runner').text();
@@ -113,7 +113,7 @@ $('.total-player-btn').click(function(){
 
     alert(`${team}이 창단되었습니다.`);
     $('body').addClass('res');
-      
+
     var speedAceImg;
     var runnerImg;
     var middleImg;
@@ -121,7 +121,7 @@ $('.total-player-btn').click(function(){
     var hybridImg;
     var itemAceImg;
 
-    
+
     if (sa > 0) {
       speedAceImg = $(`.player-indi#${speedAceA} img`).attr('src');
     } else {
@@ -145,7 +145,7 @@ $('.total-player-btn').click(function(){
     } else {
       sweeperImg = '/sa/images/players/2022na.png';
     }
-    
+
     if (hy > 0) {
       hybridImg = $(`.player-indi#${hybridA} img`).attr('src');
     } else {
@@ -172,7 +172,7 @@ $('.total-player-btn').click(function(){
     $('.tgil-player span#itemAce').text(itemAceA);
 
     $('.teamnamedisplay span').text(team);
-      
+
   } else {
     alert('제한: 최소 4명, 최대 5명');
   }
@@ -186,7 +186,7 @@ $('.retry').click(function(){
   $('.tables td').html('<span></span>');
   $('.player-indi.vsn').removeClass('vsn');
   $('.users-coin').text('17');
-  coin = 17;
+  axCoin = 17;
   runner = '';
   speedAce = '';
   middle = '';

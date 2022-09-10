@@ -43,10 +43,9 @@
         <span class="closethehelp material-symbols-outlined">close</span>
         <span class="ptitle">게임 설명</span>
         <span class="pdes">선수들을 영입/방출하여 자신만의 팀을 창단할 수 있습니다.</span>
-        <span class="pdes">영입 비용은 6/5/4/3/2/1 코인으로 지정되어 있으며, 초기 자본금으로 20코인을 지급합니다.</span>
+        <span class="pdes">영입 비용은 6/5/4/3/2/1 코인으로 지정되어 있으며, 초기 자본금으로 17코인을 지급합니다.</span>
         <span class="ptitle">게임 규칙</span>
-        <span class="pdes">선수들을 영입/방출하여 자신만의 팀을 창단할 수 있습니다.</span>
-        <span class="pdes">영입 비용은 6/5/4/3/2/1 코인으로 지정되어 있으며, 초기 자본금으로 20코인을 지급합니다.</span>
+        <span class="pdes">준비 중입니다.</span>
         <span class="ptitle">포지션 안내</span>
         <span class="pdes"><span class="b">SPEED ACE:&nbsp;</span><span class="a">스피드전에 가장 능숙해 스피드전의 경기를 총괄하는 포지션입니다.</span></span>
         <span class="pdes"><span class="b">RUNNER:&nbsp;</span><span class="a">빠르게 트랙을 주파해 선두를 차지하는 포지션입니다.</span></span>
@@ -54,6 +53,8 @@
         <span class="pdes"><span class="b">SWEEPER:&nbsp;</span><span class="a">몸싸움을 통해 상대를 방해하고 팀을 보호하는 포지션입니다.</span></span>
         <span class="pdes"><span class="b">HYBRID:&nbsp;</span><span class="a">아이템전과 스피드전 모두 균형잡힌 실력을 보이는 포지션입니다.</span></span>
         <span class="pdes"><span class="b">ITEM ACE:&nbsp;</span><span class="a">아이템전에 능숙해 아이템전의 경기를 총괄하는 포지션입니다.</span></span>
+        <span class="ptitle">문의</span>
+        <span class="pdes"><a href="//instagram.com/hyndf05">DM ME</a></span>
       </div>
     </div> 
     <div class="wrap">
