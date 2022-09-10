@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+    <script type="text/javascript">
+      if(!wcs_add) var wcs_add = {};
+      wcs_add["wa"] = "1672a6cc7e2c990";
+      if(window.wcs) {
+        wcs_do();
+      }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9FFG0DZKZ2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-9FFG0DZKZ2');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>KL MANAGER 2022</title>
@@ -13,6 +30,7 @@
     <script defer src="/sa/scripts/app.js"></script>
     <script defer src="/sa/scripts/download.js"></script>
     <script defer src="/sa/scripts/html2canvas.js"></script>
+    <script defer src="/sa/scripts/locate.js"></script>
   </head>
   <body>
     <div class="help">
@@ -22,18 +40,26 @@
     </div>
     <div class="howtoplay">
       <div class="inner">
+        <span class="closethehelp material-symbols-outlined">close</span>
         <span class="ptitle">게임 설명</span>
         <span class="pdes">선수들을 영입/방출하여 자신만의 팀을 창단할 수 있습니다.</span>
         <span class="pdes">영입 비용은 6/5/4/3/2/1 코인으로 지정되어 있으며, 초기 자본금으로 20코인을 지급합니다.</span>
         <span class="ptitle">게임 규칙</span>
         <span class="pdes">선수들을 영입/방출하여 자신만의 팀을 창단할 수 있습니다.</span>
         <span class="pdes">영입 비용은 6/5/4/3/2/1 코인으로 지정되어 있으며, 초기 자본금으로 20코인을 지급합니다.</span>
+        <span class="ptitle">포지션 안내</span>
+        <span class="pdes"><span class="b">SPEED ACE</span><span class="a">스피드전에 가장 능숙해 스피드전의 경기를 총괄하는 포지션입니다.</span></span>
+        <span class="pdes"><span class="b">RUNNER</span><span class="a">빠르게 트랙을 주파해 선두를 차지하는 포지션입니다.</span></span>
+        <span class="pdes"><span class="b">MIDDLE</span><span class="a">중위권에 머물며 상대를 교란, 팀을 지원하는 포지션입니다.</span></span>
+        <span class="pdes"><span class="b">SWEEPER</span><span class="a">몸싸움을 통해 상대를 방해하고 팀을 보호하는 포지션입니다.</span></span>
+        <span class="pdes"><span class="b">HYBRID</span><span class="a">아이템전과 스피드전 모두 균형잡힌 실력을 보이는 포지션입니다.</span></span>
+        <span class="pdes"><span class="b">ITEM ACE</span><span class="a">아이템전에 능숙해 아이템전의 경기를 총괄하는 포지션입니다.</span></span>
       </div>
     </div> 
     <div class="wrap">
       <div class="header">
         <div class="inner">
-          <span>KL MANAGER 2022</span>
+          <span class="logo">KL MANAGER 2022</span>
         </div>
       </div>
       <div class="container">
@@ -61,6 +87,7 @@
             </tbody>
           </table>
         </div>
+        <!-- 6 -->
         <div class="line">
           <div class="coin">
             <div class="coins">
@@ -79,6 +106,7 @@
             </div>
           </div>
         </div>
+        <!-- 5 -->
         <div class="line">
           <div class="coin">
             <div class="coins">
@@ -135,6 +163,7 @@
             <!-- ? -->
           </div>
         </div>
+        <!-- 4 -->
         <div class="line">
           <div class="coin">
             <div class="coins">
@@ -171,15 +200,6 @@
               </div>
             </div>
             <!-- ? -->
-            <div class="player-indi" id="홍성민" co="4">
-              <div class="player-face">
-                <img src="/sa/images/players/ghdtjdals.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>홍성민</span>
-              </div>
-            </div>
-            <!-- ? -->
             <div class="player-indi" id="김지민" co="4">
               <div class="player-face">
                 <img src="/sa/images/players/rlawlals.png" loading="lazy">
@@ -189,17 +209,9 @@
               </div>
             </div>
             <!-- ? -->
-            <div class="player-indi" id="송용준" co="4">
-              <div class="player-face">
-                <img src="/sa/images/players/thddydwns.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>송용준</span>
-              </div>
-            </div>
-            <!-- ? -->
           </div>
         </div>
+        <!-- 3 -->
         <div class="line">
           <div class="coin">
             <div class="coins">
@@ -227,6 +239,15 @@
               </div>
             </div>
             <!-- ? -->
+            <div class="player-indi" id="송용준" co="3">
+              <div class="player-face">
+                <img src="/sa/images/players/thddydwns.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>송용준</span>
+              </div>
+            </div>
+            <!-- ? -->
             <div class="player-indi" id="임재원" co="3">
               <div class="player-face">
                 <img src="/sa/images/players/dlawodnjs.png" loading="lazy">
@@ -236,21 +257,21 @@
               </div>
             </div>
             <!-- ? -->
+            <div class="player-indi" id="홍성민" co="3">
+              <div class="player-face">
+                <img src="/sa/images/players/ghdtjdals.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>홍성민</span>
+              </div>
+            </div>
+            <!-- ? -->
             <div class="player-indi" id="황인호" co="3">
               <div class="player-face">
                 <img src="/sa/images/players/ghkddlsgh.png" loading="lazy">
               </div>
               <div class="player-name">
                 <span>황인호</span>
-              </div>
-            </div>
-            <!-- ? -->
-            <div class="player-indi" id="전진우" co="3">
-              <div class="player-face">
-                <img src="/sa/images/players/wjswlsdn.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>전진우</span>
               </div>
             </div>
             <!-- ? -->
@@ -269,15 +290,6 @@
               </div>
               <div class="player-name">
                 <span>유영혁</span>
-              </div>
-            </div>
-            <!-- ? -->
-            <div class="player-indi" id="곽현호" co="3">
-              <div class="player-face">
-                <img src="/sa/images/players/rhkrgusgh.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>곽현호</span>
               </div>
             </div>
             <!-- ? -->
@@ -319,6 +331,7 @@
             <!-- ? -->
           </div>
         </div>
+        <!-- 2 -->
         <div class="line">
           <div class="coin">
             <div class="coins">
@@ -337,12 +350,30 @@
               </div>
             </div>
             <!-- ? -->
+            <div class="player-indi" id="전진우" co="3">
+              <div class="player-face">
+                <img src="/sa/images/players/wjswlsdn.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>전진우</span>
+              </div>
+            </div>
+            <!-- ? -->
             <div class="player-indi" id="원종태" co="2">
               <div class="player-face">
                 <img src="/sa/images/players/dnjswhdxo.png" loading="lazy">
               </div>
               <div class="player-name">
                 <span>원종태</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="곽현호" co="2">
+              <div class="player-face">
+                <img src="/sa/images/players/rhkrgusgh.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>곽현호</span>
               </div>
             </div>
             <!-- ? -->
@@ -429,6 +460,7 @@
             <!-- ? -->
           </div>
         </div>
+        <!-- 1 -->
         <div class="line">
           <div class="coin">
             <div class="coins">
@@ -611,10 +643,10 @@
           </div>
           <div class="fn-line">
             <span class="h-title">제작</span>
-            <span class="h-user">WWPS</span>
+            <span class="h-user">223.38</span>
           </div>
           <div class="fn-line">
-            <span class="h-ver">KL MANAGER v1.0.0</span>
+            <span class="h-ver">KL MANAGER v1.0.1</span>
           </div>
         </div>
       </div>
@@ -622,7 +654,7 @@
     <div class="my-coin">
       <div class="my-coin-gg">
         <img src="/sa/images/it/coin.png">
-        <span class="users-coin">20</span>
+        <span class="users-coin">16</span>
       </div>
     </div>
     <div class="tWrap">
