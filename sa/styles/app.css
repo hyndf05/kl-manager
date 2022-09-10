@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap');
+
+* { 
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box; 
+  scroll-behavior: smooth;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #f9f9fb;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 43px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #ffffff;
+}
+
+.header > .inner {
+  display: flex;
+  align-items: center;
+  padding-left: 11px;
+}
+
+.header span {
+  font-size: 21px;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin-top: 7px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+}
+
+.footer > div {
+  padding: 11px 0;
+  padding-left: 11px;
+}
+
+.line {
+  width: 100%;
+  height: 110px;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  margin-bottom: 7px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.coin {
+  width: 69px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  background-color: rgba(255,255,255,.7);
+  backdrop-filter: blur(6px);
+  padding-right: 13px;
+}
+
+.coins {
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+.coins img {
+  height: 35px;
+}
+
+.coins span {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.player {
+  width: 100%;
+  display: inherit;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-left: 69px;
+}
+
+.player::-webkit-scrollbar {
+  display: none;
+}
+
+.player-indi {
+  width: 109px;
+  height: 100%;
+  position: relative;
+}
+
+.player-face {
+  width: 100%;
+  height: 100%;
+}
+
+.player-face img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.player-name {
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* left: 3px; */
+  /* height: auto; */
+  /* top: 3px; */
+  text-align: center;
+}
+
+
+
+
+
+.tWrap {
+  width: 100%;
+  height: auto;
+  padding-bottom: 21px;
+  background-color: rgba(255,255,255,.7);
+  backdrop-filter: blur(11px);
+  display: none;
+  position: fixed;
+  top: 43px;
+  z-index: 11;
+}
+
+body.ves .tWrap {
+  display: block;
+}
+
+.tHeader {
+  width: 100%;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  padding-left: 11px;
+}
+
+.tHeaderPlayer {
+  width: calc(100% - 37px);
+}
+
+.tHeaderPlayer span {
+  font-size: 21px;
+}
+
+.tHeaderIcon {
+  width: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tHeaderIcon span {
+  font-size: 29px;
+  font-weight: 200;
+}
+
+.tContainer {
+  padding: 7px 0;
+  padding-left: 11px;
+}
+
+.tContainer button {
+  padding: 2px 4px;
+  margin-bottom: 4px;
+  background-color: #f1f1f1;
+  border-radius: 7px;
+  border: 1px solid #dddddd;
+  color: #000000;
+}
+
+
+
+.my-coin {
+  position: fixed;
+  top: 0;
+  right: 13px;
+  width: 43px;
+  height: 43px;
+  background-color: #ffffff;
+  z-index: 99;
+}
+
+.my-coin-gg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.my-coin-gg img {
+  height: 55%;
+}
+
+.users-coin {
+  display: flex;
+  position: absolute;
+  left: 29px;
+  font-size: 17px;
+}
+
+.tables {
+  padding: 14px 0;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  margin: 7px 0;
+  background-color: #ffffff;
+}
+
+.tables::-webkit-scrollbar {
+  display: none;
+}
+
+.tables table {
+  width: 600px;
+}
+
+.tables td {
+  text-align: center;
+}
+
+.vsn {
+  display: none;
+}
+
+.total {
+  width: 100%;
+  height: 37px;
+  margin: 19px 0;
+  text-align: center;
+}
+
+.total input {
+  width: 67%;
+  height: 100%;
+  background-color: #f1f1f1;
+  border-radius: 7px;
+  border: 1px solid #dddddd;
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.total button {
+  width: 21%;
+  height: 100%;
+  background-color: #f1f1f1;
+  border-radius: 7px;
+  border: 1px solid #dddddd;
+  font-size: 16px;
+}
+
+.fn-line {
+  width: 100%;
+  height: auto;
+}
+
+.fn-line:nth-child(1) {
+  margin-bottom: 3px;
+}
+
+.h-title {
+  font-weight: bold;
+}
+
+.team-gen {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  top: 43px;
+  left: 0;
+  z-index: 99;
+  display: none;
+}
+
+body.res .team-gen {
+  display: block;
+}
+
+.tg-inner {
+  overflow-x: auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 11px;
+}
+
+.tgi-line {
+  width: 600px;
+    display: inline-flex;
+    height: 170px;
+  text-align: center;
+}
+
+.tgil-player {
+  width: 200px;
+    height: 100%;
+  position: relative;
+}
+
+.tgilp-image {
+  width: 100%;
+    height: 100%;
+}
+
+.tgilp-image img {
+  height: 100%;
+  max-width: 200px;
+}
+
+.tgilp-name {
+  background-color: #ffffff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.tgilp-name span:nth-child(1) {
+  color: #ff0000;
+}
+
+.h-ver {
+  color: #bac9de;
+  font-size: 11px;
+  position: relative;
+  font-weight: 400;
+}
