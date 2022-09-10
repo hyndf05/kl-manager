@@ -1,8 +1,9 @@
 function download(){
   alert('다운로드가 지연되고 있습니다.\n잠시만 기다려 주세요.');
   html2canvas($('#capture')[0]).then(function(canvas){
+    var team = $('.teamnamedisplay span').text();
     var img = canvas.toDataURL();
-    download2(img, 'team.png'); 
+    download2(img, `${team}.png`); 
   });
 }
 
