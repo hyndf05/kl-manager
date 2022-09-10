@@ -646,7 +646,7 @@
     <!-- 팀 생성 페이지 -->
     <div class="team-gen">   
       <button onclick="download();" class="db4">로스터 다운로드 (PNG)</button>
-      <button class="db4 ">해단</button>
+      <button class="db4 retry">해단</button>
       <div class="tg-inner">
         <div id="capture" style="width:600px;height:auto;padding-bottom:11px;">
           <div class="teamnamedisplay">

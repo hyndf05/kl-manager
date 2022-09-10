@@ -179,3 +179,26 @@ $('.total-player-btn').click(function(){
     alert('구단명을 입력하세요.');
   }
 })
+
+$('.retry').click(function(){
+  $('body').removeClass('res');
+  $('.tables td').html('<span></span>');
+  $('.player-indi.vsn').removeClass('vsn');
+  $('.users-coin').text('20');
+  coin = 20;
+  runner = '';
+  speedAce = '';
+  middle = '';
+  sweeper = '';
+  hybrid = '';
+  itemAce = '';
+  touchedPlayer = '';
+  playerPurCoin;
+  stat;
+  userStat = 0;
+  playerCount = 0;
+  $('.team-name').val('');
+  setTimeout(function(){
+    alert('모든 정보가 초기화 되었습니다.');
+  }, 100);
+})
