@@ -1,17 +1,15 @@
 var coin = 20;
-  
 var runner;
 var speedAce;
 var middle;
 var sweeper;
 var hybrid;
 var itemAce;
-
 var touchedPlayer;
 var playerPurCoin;
-
 var stat;
 var userStat = 0;
+var playerCount = 0;
   
 $('.tHeaderIcon').click(function(){
   $('body').removeClass('ves');
@@ -24,12 +22,8 @@ $('.player-indi').click(function(){
   $('.cPlayer').text(touchedPlayer);
 })
 
-
-
-
-
 $('.pa').click(function(){
-if ( coin > playerPurCoin ) {
+if ( coin >= playerPurCoin ) {
 
 stat = $(this).attr('id');
 var ix = $(`.tables td#${stat} span`).length;
@@ -67,6 +61,7 @@ if (stat == 'speedAce') {
 
 function playerSet(stat, touchedPlayer) {
 alert(`${touchedPlayer} 선수를 영입하였습니다.`);
+playerCount ++;
 $(`.tables td#${stat}`).text(touchedPlayer);
 $(`.tables td#${stat}`).attr('co', playerPurCoin);
   
@@ -87,21 +82,17 @@ var reCoinSTR = parseInt(reCoin);
 $(`.player-indi#${removePlayer}`).removeClass('vsn');
 var userNowCoin = $('.users-coin').text();
 var userNowCoin2 = parseInt(userNowCoin);
-
 coin = userNowCoin2 + reCoinSTR;
 $('.users-coin').text(coin);
-  
+alert(`${removePlayer} 선수를 방출하였습니다.`);
+playerCount --;
 })
 
 $('.total-player-btn').click(function(){
   var team = $('.team-name').val();
   var tl = team.length;
   if (tl > 0) {
-    alert(`${team}이 창단되었습니다.`);
-    $('body').addClass('res');
-
-
-
+    
 
     var speedAceA = $('.tables td#speedAce').text();
     var runnerA = $('.tables td#runner').text();
@@ -110,8 +101,6 @@ $('.total-player-btn').click(function(){
     var hybridA = $('.tables td#hybrid').text();
     var itemAceA = $('.tables td#itemAce').text();
 
-    console.log(speedAceA);
-
     var sa = speedAceA.length;
     var rn = runnerA.length;
     var md = middleA.length;
@@ -119,7 +108,11 @@ $('.total-player-btn').click(function(){
     var hy = hybridA.length;
     var ia = itemAceA.length;
 
-    
+    if (playerCount == 4 || playerCount == 5) {
+
+    alert(`${team}이 창단되었습니다.`);
+    $('body').addClass('res');
+      
     var speedAceImg;
     var runnerImg;
     var middleImg;
@@ -131,37 +124,37 @@ $('.total-player-btn').click(function(){
     if (sa > 0) {
       speedAceImg = $(`.player-indi#${speedAceA} img`).attr('src');
     } else {
-      speedAceImg = '/sa/images/player/2022na.png';
+      speedAceImg = '/sa/images/players/2022na.png';
     }
 
     if (rn > 0) {
       runnerImg = $(`.player-indi#${runnerA} img`).attr('src');;
     } else {
-      runnerImg = '/sa/images/player/2022na.png';
+      runnerImg = '/sa/images/players/2022na.png';
     }
 
     if (md > 0) {
       middleImg = $(`.player-indi#${middleA} img`).attr('src');
     } else {
-      middleImg = '/sa/images/player/2022na.png';
+      middleImg = '/sa/images/players/2022na.png';
     }
 
     if (sw > 0) {
       sweeperImg = $(`.player-indi#${sweeperA} img`).attr('src');
     } else {
-      sweeperImg = '/sa/images/player/2022na.png';
+      sweeperImg = '/sa/images/players/2022na.png';
     }
     
     if (hy > 0) {
       hybridImg = $(`.player-indi#${hybridA} img`).attr('src');
     } else {
-      hybridImg = '/sa/images/player/2022na.png';
+      hybridImg = '/sa/images/players/2022na.png';
     }
 
     if (ia > 0) {
       itemAceImg = $(`.player-indi#${itemAceA} img`).attr('src');
     } else {
-      itemAceImg = '/sa/images/player/2022na.png';
+      itemAceImg = '/sa/images/players/2022na.png';
     } 
 
     $('.tgil-player img#speedAce').attr('src', speedAceImg);
@@ -176,7 +169,12 @@ $('.total-player-btn').click(function(){
     $('.tgil-player span#sweeper').text(sweeperA);
     $('.tgil-player span#hybrid').text(hybridA);
     $('.tgil-player span#itemAce').text(itemAceA);
-    
+
+    $('.teamnamedisplay span').text(team);
+      
+  } else {
+    alert('제한: 최소 4명, 최대 5명');
+  }
   } else {
     alert('구단명을 입력하세요.');
   }

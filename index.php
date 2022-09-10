@@ -11,8 +11,25 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script defer src="/sa/scripts/app.js"></script>
+    <script defer src="/sa/scripts/download.js"></script>
+    <script defer src="/sa/scripts/html2canvas.js"></script>
   </head>
   <body>
+    <div class="help">
+      <div class="inner">
+        <span class="material-symbols-outlined">help</span>
+      </div>
+    </div>
+    <div class="howtoplay">
+      <div class="inner">
+        <span class="ptitle">게임 설명</span>
+        <span class="pdes">선수들을 영입/방출하여 자신만의 팀을 창단할 수 있습니다.</span>
+        <span class="pdes">영입 비용은 6/5/4/3/2/1 코인으로 지정되어 있으며, 초기 자본금으로 20코인을 지급합니다.</span>
+        <span class="ptitle">게임 규칙</span>
+        <span class="pdes">선수들을 영입/방출하여 자신만의 팀을 창단할 수 있습니다.</span>
+        <span class="pdes">영입 비용은 6/5/4/3/2/1 코인으로 지정되어 있으며, 초기 자본금으로 20코인을 지급합니다.</span>
+      </div>
+    </div> 
     <div class="wrap">
       <div class="header">
         <div class="inner">
@@ -20,39 +37,30 @@
         </div>
       </div>
       <div class="container">
-
-
         <div class="total">
-  <input type="text" class="team-name" placeholder="구단명을 입력하세요.">
-  <button class="total-player-btn">창단</button>
-</div>
-
-        
-
+          <input type="text" class="team-name" placeholder="구단명을 입력하세요.">
+          <button class="total-player-btn">창단</button>
+        </div>
         <div class="tables">
-<table>
-  <thead>
-    <th>SPEED ACE</th>
-    <th>RUNNER</th>
-    <th>MIDDLE</th>
-    <th>SWEEPER</th>
-    <th>HYBRID</th>
-    <th>ITEM ACE</th>
-  </thead>
-  <tbody>
-    <td id="speedAce"><span></span></td>
-    <td id="runner"><span></span></td>
-    <td id="middle"><span></span></td>
-    <td id="sweeper"><span></span></td>
-    <td id="hybrid"><span></span></td>
-    <td id="itemAce"><span></span></td>
-  </tbody>
-</table>
-</div>
-  
-
-
-        
+          <table>
+            <thead>
+              <th>SPEED ACE</th>
+              <th>RUNNER</th>
+              <th>MIDDLE</th>
+              <th>SWEEPER</th>
+              <th>HYBRID</th>
+              <th>ITEM ACE</th>
+            </thead>
+            <tbody>
+              <td id="speedAce"><span></span></td>
+              <td id="runner"><span></span></td>
+              <td id="middle"><span></span></td>
+              <td id="sweeper"><span></span></td>
+              <td id="hybrid"><span></span></td>
+              <td id="itemAce"><span></span></td>
+            </tbody>
+          </table>
+        </div>
         <div class="line">
           <div class="coin">
             <div class="coins">
@@ -71,7 +79,6 @@
             </div>
           </div>
         </div>
-
         <div class="line">
           <div class="coin">
             <div class="coins">
@@ -128,7 +135,6 @@
             <!-- ? -->
           </div>
         </div>
-
         <div class="line">
           <div class="coin">
             <div class="coins">
@@ -194,13 +200,6 @@
             <!-- ? -->
           </div>
         </div>
-
-
-
-
-
-
-        
         <div class="line">
           <div class="coin">
             <div class="coins">
@@ -320,12 +319,6 @@
             <!-- ? -->
           </div>
         </div>
-
-
-
-
-
-
         <div class="line">
           <div class="coin">
             <div class="coins">
@@ -436,12 +429,7 @@
             <!-- ? -->
           </div>
         </div>
-
-
-
-
-
-<div class="line">
+        <div class="line">
           <div class="coin">
             <div class="coins">
               <img src="/sa/images/it/coin.png">
@@ -614,133 +602,116 @@
             <!-- ? -->
           </div>
         </div>
-
-
-
-
-
-
-        
-        
-
-<div class="footer">
-  <div class="inner">
-    <div class="fn-line">
-      <span class="h-title">제공</span>
-      <span class="h-user">연방봇</span>
-    </div>
-    <div class="fn-line">
-      <span class="h-title">제작</span>
-      <span class="h-user">WWPS</span>
-    </div>
-    <div class="fn-line">
-      <span class="h-ver">KL MANAGER v1.0.0</span>
-    </div>
-  </div>
-</div>
-      
-    </div>
-        
       </div>
-    
-
-<div class="my-coin">
-  <div class="my-coin-gg">
-    <img src="/sa/images/it/coin.png">
-    <span class="users-coin">20</span>
-  </div>
-</div>
-
+      <div class="footer">
+        <div class="inner">
+          <div class="fn-line">
+            <span class="h-title">제공</span>
+            <span class="h-user">연방봇</span>
+          </div>
+          <div class="fn-line">
+            <span class="h-title">제작</span>
+            <span class="h-user">WWPS</span>
+          </div>
+          <div class="fn-line">
+            <span class="h-ver">KL MANAGER v1.0.0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="my-coin">
+      <div class="my-coin-gg">
+        <img src="/sa/images/it/coin.png">
+        <span class="users-coin">20</span>
+      </div>
+    </div>
     <div class="tWrap">
-  <div class="tHeader">
-    <div class="tHeaderPlayer">
-      <span class="cPlayer"></span>
+      <div class="tHeader">
+        <div class="tHeaderPlayer">
+          <span class="cPlayer"></span>
+        </div>
+        <div class="tHeaderIcon">
+          <span class="material-symbols-outlined">close</span>
+        </div>
+      </div>
+      <div class="tContainer">
+        <button class="pa" id="speedAce">Speed Ace</button>
+        <button class="pa" id="runner">Runner</button>
+        <button class="pa" id="middle">Middle</button>
+        <button class="pa" id="sweeper">Sweeper</button>
+        <button class="pa" id="hybrid">Hybrid</button>
+        <button class="pa" id="itemAce">Item Ace</button>
+      </div>
     </div>
-    <div class="tHeaderIcon">
-      <span class="material-symbols-outlined">close</span>
-    </div>
-  </div>
-  <div class="tContainer">
-    <button class="pa" id="speedAce">Speed Ace</button>
-    <button class="pa" id="runner">Runner</button>
-    <button class="pa" id="middle">Middle</button>
-    <button class="pa" id="sweeper">Sweeper</button>
-    <button class="pa" id="hybrid">Hybrid</button>
-    <button class="pa" id="itemAce">Item Ace</button>
-  </div>
-</div>
-
-
-
     <!-- 팀 생성 페이지 -->
-    <div class="team-gen">
-
-
-
-
-<div class="tg-inner">
-  <div class="tgi-line">
-    <div class="tgil-player">
-      <div class="tgilp-image">
-        <img id="speedAce" src="">
-      </div>
-      <div class="tgilp-name">
-        <span>SPEED ACE</span>
-        <span id="speedAce"></span>
-      </div>
-    </div>
-    <div class="tgil-player">
-      <div class="tgilp-image">
-        <img id="runner" src="">
-      </div>
-      <div class="tgilp-name">
-        <span>RUNNER</span>
-        <span id="runner"></span>
-      </div>
-    </div>
-    <div class="tgil-player">
-      <div class="tgilp-image">
-        <img id="middle" src="">
-      </div>
-      <div class="tgilp-name">
-        <span>MIDDLE</span>
-        <span id="middle"></span>
-      </div>
-    </div>
-  </div>
-  <div class="tgi-line">
-    <div class="tgil-player">
-      <div class="tgilp-image">
-        <img id="sweeper" src="">
-      </div>
-      <div class="tgilp-name">
-        <span>SWEEPER</span>
-        <span id="sweeper"></span>
-      </div>
-    </div>
-    <div class="tgil-player">
-      <div class="tgilp-image">
-        <img id="hybrid" src="">
-      </div>
-      <div class="tgilp-name">
-        <span>HYBRID</span>
-        <span id="hybrid"></span>
-      </div>
-    </div>
-    <div class="tgil-player">
-      <div class="tgilp-image">
-        <img id="itemAce" src="">
-      </div>
-      <div class="tgilp-name">
-        <span>ITEM ACE</span>
-        <span id="itemAce"></span>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-      
+    <div class="team-gen">   
+      <button onclick="download();" class="db4">로스터 다운로드 (PNG)</button>
+      <button class="db4 ">해단</button>
+      <div class="tg-inner">
+        <div id="capture" style="width:600px;height:auto;padding-bottom:11px;">
+          <div class="teamnamedisplay">
+            <span></span>
+          </div>
+          <div class="tgi-line">
+            <div class="tgil-player">
+              <div class="tgilp-image">
+                <img id="speedAce" src="">
+              </div>
+              <div class="tgilp-name">
+                <span>SPEED ACE</span>
+                <span id="speedAce"></span>
+              </div>
+            </div>
+            <div class="tgil-player">
+              <div class="tgilp-image">
+                <img id="runner" src="">
+              </div>
+              <div class="tgilp-name">
+                <span>RUNNER</span>
+                <span id="runner"></span>
+              </div>
+            </div>
+            <div class="tgil-player">
+              <div class="tgilp-image">
+                <img id="middle" src="">
+              </div>
+              <div class="tgilp-name">
+                <span>MIDDLE</span>
+                <span id="middle"></span>
+              </div>
+            </div>
+          </div>
+          <div class="tgi-line">
+            <div class="tgil-player">
+              <div class="tgilp-image">
+                <img id="sweeper" src="">
+              </div>
+              <div class="tgilp-name">
+                <span>SWEEPER</span>
+                <span id="sweeper"></span>
+              </div>
+            </div>
+            <div class="tgil-player">
+              <div class="tgilp-image">
+                <img id="hybrid" src="">
+              </div>
+              <div class="tgilp-name">
+                <span>HYBRID</span>
+                <span id="hybrid"></span>
+              </div>
+            </div>
+            <div class="tgil-player">
+              <div class="tgilp-image">
+                <img id="itemAce" src="">
+              </div>
+              <div class="tgilp-name">
+                <span>ITEM ACE</span>
+                <span id="itemAce"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
     </div>
   </body>
 </html>
