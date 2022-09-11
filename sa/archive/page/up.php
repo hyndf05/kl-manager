@@ -650,7 +650,7 @@
             <span class="h-user"><a href="//instagram.com/drop_castle" target="_blank">떨어뜨린성</a></span>
           </div>
           <div class="fn-line">
-            <span class="h-ver">KL MANAGER v1.0.2</span>
+            <span class="h-ver">KL MANAGER v1.0.1</span>
           </div>
         </div>
       </div>

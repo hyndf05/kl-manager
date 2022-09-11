@@ -54,9 +54,10 @@
         <span class="pdes"><span class="b">HYBRID:&nbsp;</span><span class="a">아이템전과 스피드전 모두 균형잡힌 실력을 보이는 포지션입니다.</span></span>
         <span class="pdes"><span class="b">ITEM ACE:&nbsp;</span><span class="a">아이템전에 능숙해 아이템전의 경기를 총괄하는 포지션입니다.</span></span>
         <span class="ptitle">문의</span>
-        <span class="pdes"><a href="//instagram.com/hyndf05" target="_blank">DM ME</a></span>
+        <span class="pdes"><a href="//instagram.com/hyndf05">DM ME</a></span>
       </div>
     </div> 
+    <span style="color:#ff0000;padding: 11px;">테스트 서버 ? rx=1.v ? plat=dt</span>
     <div class="wrap">
       <div class="header">
         <div class="inner">
@@ -88,26 +89,6 @@
             </tbody>
           </table>
         </div>
-        <!-- 7 -->
-        <div class="line">
-          <div class="coin">
-            <div class="coins">
-              <img src="/sa/images/it/coin.png">
-              <span>7</span>
-            </div>
-          </div>
-          <div class="player">
-            <div class="player-indi" id="유창현" co="7">
-              <div class="player-face">
-                <img src="/sa/images/players/dbckdgus.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>유창현</span>
-              </div>
-            </div>
-            <!-- ? -->
-          </div>
-        </div>
         <!-- 6 -->
         <div class="line">
           <div class="coin">
@@ -117,39 +98,21 @@
             </div>
           </div>
           <div class="player">
+            <div class="player-indi" id="유창현" co="6">
+              <div class="player-face">
+                <img src="/sa/images/players/dbckdgus.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>유창현</span>
+              </div>
+            </div>
+            <!-- ? -->
             <div class="player-indi" id="이재혁" co="6">
               <div class="player-face">
                 <img src="/sa/images/players/dlwogur.png" loading="lazy">
               </div>
               <div class="player-name">
                 <span>이재혁</span>
-              </div>
-            </div>
-            <!-- ? -->
-            <div class="player-indi" id="박인수" co="6">
-              <div class="player-face">
-                <img src="/sa/images/players/qkrdlstn.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>박인수</span>
-              </div>
-            </div>
-            <!-- ? -->
-            <div class="player-indi" id="배성빈" co="6">
-              <div class="player-face">
-                <img src="/sa/images/players/qotjdqls.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>배성빈</span>
-              </div>
-            </div>
-            <!-- ? -->
-            <div class="player-indi" id="박현수" co="6">
-              <div class="player-face">
-                <img src="/sa/images/players/qkrgustn.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>박현수</span>
               </div>
             </div>
             <!-- ? -->
@@ -164,6 +127,24 @@
             </div>
           </div>
           <div class="player">
+            <div class="player-indi" id="배성빈" co="5">
+              <div class="player-face">
+                <img src="/sa/images/players/qotjdqls.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>배성빈</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="박현수" co="5">
+              <div class="player-face">
+                <img src="/sa/images/players/qkrgustn.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>박현수</span>
+              </div>
+            </div>
+            <!-- ? -->
             <div class="player-indi" id="최영훈" co="5">
               <div class="player-face">
                 <img src="/sa/images/players/chldudgns.png" loading="lazy">
@@ -182,42 +163,6 @@
               </div>
             </div>
             <!-- ? -->
-            <div class="player-indi" id="김다원" co="5">
-              <div class="player-face">
-                <img src="/sa/images/players/rlaekdnjs.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>김다원</span>
-              </div>
-            </div>
-            <!-- ? -->
-            <div class="player-indi" id="노준현" co="5">
-              <div class="player-face">
-                <img src="/sa/images/players/shwnsgus.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>노준현</span>
-              </div>
-            </div>
-            <!-- ??????????????????????????????????????  -->
-            <div class="player-indi" id="정승하" co="5">
-              <div class="player-face">
-                <img src="/sa/images/players/wjdtmdgk.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>정승하</span>
-              </div>
-            </div>
-            <!-- ? -->
-            <div class="player-indi" id="유영혁" co="5">
-              <div class="player-face">
-                <img src="/sa/images/players/dbdudgur.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>유영혁</span>
-              </div>
-            </div>
-            <!-- ? -->
           </div>
         </div>
         <!-- 4 -->
@@ -229,12 +174,40 @@
             </div>
           </div>
           <div class="player">
-            <div class="player-indi" id="강석인" co="4">
+            <!-- ? -->
+            <div class="player-indi" id="박인수" co="4">
               <div class="player-face">
-                <img src="/sa/images/players/rkdtjrdls.png" loading="lazy">
+                <img src="/sa/images/players/qkrdlstn.png" loading="lazy">
               </div>
               <div class="player-name">
-                <span>강석인</span>
+                <span>박인수</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="김다원" co="4">
+              <div class="player-face">
+                <img src="/sa/images/players/rlaekdnjs.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>김다원</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="유영혁" co="4">
+              <div class="player-face">
+                <img src="/sa/images/players/dbdudgur.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>유영혁</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="정승하" co="4">
+              <div class="player-face">
+                <img src="/sa/images/players/wjdtmdgk.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>정승하</span>
               </div>
             </div>
             <!-- ? -->
@@ -247,43 +220,15 @@
               </div>
             </div>
             <!-- ? -->
-            <div class="player-indi" id="이은택" co="4">
+            <div class="player-indi" id="김응태" co="4">
               <div class="player-face">
-                <img src="/sa/images/players/dldmsxor.png" loading="lazy">
+                <img src="/sa/images/players/rladmdxo.png" loading="lazy">
               </div>
               <div class="player-name">
-                <span>이은택</span>
+                <span>김응태</span>
               </div>
             </div>
             <!-- ? -->
-            <div class="player-indi" id="Neal" co="4">
-              <div class="player-face">
-                <img src="/sa/images/players/neal.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>NEAL</span>
-              </div>
-            </div>
-            <!-- ? -->
-            <div class="player-indi" id="송용준" co="4">
-              <div class="player-face">
-                <img src="/sa/images/players/thddydwns.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>송용준</span>
-              </div>
-            </div>
-            <!-- ? -->
-            <div class="player-indi" id="강다훈" co="4">
-              <div class="player-face">
-                <img src="/sa/images/players/rkdekgns.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>강다훈</span>
-              </div>
-            </div>
-            <!-- ? -->
-            
           </div>
         </div>
         <!-- 3 -->
@@ -295,6 +240,34 @@
             </div>
           </div>
           <div class="player">
+            <!-- ? -->
+            <div class="player-indi" id="강석인" co="3">
+              <div class="player-face">
+                <img src="/sa/images/players/rkdtjrdls.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>강석인</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="이은택" co="3">
+              <div class="player-face">
+                <img src="/sa/images/players/dldmsxor.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>이은택</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="임재원" co="3">
+              <div class="player-face">
+                <img src="/sa/images/players/dlawodnjs.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>임재원</span>
+              </div>
+            </div>
+            <!-- ? -->
             <div class="player-indi" id="홍성민" co="3">
               <div class="player-face">
                 <img src="/sa/images/players/ghdtjdals.png" loading="lazy">
@@ -304,12 +277,30 @@
               </div>
             </div>
             <!-- ? -->
-            <div class="player-indi" id="이은서" co="3">
+            <div class="player-indi" id="황인호" co="3">
               <div class="player-face">
-                <img src="/sa/images/players/dldmstj.png" loading="lazy">
+                <img src="/sa/images/players/ghkddlsgh.png" loading="lazy">
               </div>
               <div class="player-name">
-                <span>이은서</span>
+                <span>황인호</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="박민호" co="3">
+              <div class="player-face">
+                <img src="/sa/images/players/qkralsgh.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>박민호</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="NEAL" co="3">
+              <div class="player-face">
+                <img src="/sa/images/players/neal.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>NEAL</span>
               </div>
             </div>
             <!-- ? -->
@@ -322,48 +313,21 @@
               </div>
             </div>
             <!-- ? -->
-            <div class="player-indi" id="김응태" co="3">
+            <div class="player-indi" id="노준현" co="3">
               <div class="player-face">
-                <img src="/sa/images/players/rladmdxo.png" loading="lazy">
+                <img src="/sa/images/players/shwnsgus.png" loading="lazy">
               </div>
               <div class="player-name">
-                <span>김응태</span>
+                <span>노준현</span>
               </div>
             </div>
             <!-- ? -->
-            <div class="player-indi" id="이명재" co="3">
+            <div class="player-indi" id="강다훈" co="3">
               <div class="player-face">
-                <img src="/sa/images/players/dlaudwo.png" loading="lazy">
+                <img src="/sa/images/players/rkdekgns.png" loading="lazy">
               </div>
               <div class="player-name">
-                <span>이명재</span>
-              </div>
-            </div>
-            <!-- ? -->
-            <div class="player-indi" id="석주엽" co="3">
-              <div class="player-face">
-                <img src="/sa/images/players/tjrwnduq.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>석주엽</span>
-              </div>
-            </div>
-            <!-- ? -->
-            <div class="player-indi" id="원종태" co="3">
-              <div class="player-face">
-                <img src="/sa/images/players/dnjswhdxo.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>원종태</span>
-              </div>
-            </div>
-            <!-- ? -->
-            <div class="player-indi" id="김우준" co="3">
-              <div class="player-face">
-                <img src="/sa/images/players/rladnwns.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>김우준</span>
+                <span>강다훈</span>
               </div>
             </div>
             <!-- ? -->
@@ -378,21 +342,76 @@
             </div>
           </div>
           <div class="player">
-            <div class="player-indi" id="황인호" co="2">
+            <!-- ? -->
+            <div class="player-indi" id="송용준" co="2">
               <div class="player-face">
-                <img src="/sa/images/players/ghkddlsgh.png" loading="lazy">
+                <img src="/sa/images/players/thddydwns.png" loading="lazy">
               </div>
               <div class="player-name">
-                <span>황인호</span>
+                <span>송용준</span>
               </div>
             </div>
             <!-- ? -->
-            <div class="player-indi" id="임재원" co="2">
+            <div class="player-indi" id="석주엽" co="2">
               <div class="player-face">
-                <img src="/sa/images/players/dlawodnjs.png" loading="lazy">
+                <img src="/sa/images/players/tjrwnduq.png" loading="lazy">
               </div>
               <div class="player-name">
-                <span>임재원</span>
+                <span>석주엽</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="전진우" co="3">
+              <div class="player-face">
+                <img src="/sa/images/players/wjswlsdn.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>전진우</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="원종태" co="2">
+              <div class="player-face">
+                <img src="/sa/images/players/dnjswhdxo.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>원종태</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="곽현호" co="2">
+              <div class="player-face">
+                <img src="/sa/images/players/rhkrgusgh.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>곽현호</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="한정진" co="2">
+              <div class="player-face">
+                <img src="/sa/images/players/gkswjdwls.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>한정진</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="이명재" co="2">
+              <div class="player-face">
+                <img src="/sa/images/players/dlaudwo.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>이명재</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="박대한" co="2">
+              <div class="player-face">
+                <img src="/sa/images/players/qkreogks.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>박대한</span>
               </div>
             </div>
             <!-- ? -->
@@ -402,6 +421,15 @@
               </div>
               <div class="player-name">
                 <span>전대웅</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="이은서" co="2">
+              <div class="player-face">
+                <img src="/sa/images/players/dldmstj.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>이은서</span>
               </div>
             </div>
             <!-- ? -->
@@ -423,12 +451,21 @@
               </div>
             </div>
             <!-- ? -->
-            <div class="player-indi" id="전진우" co="2">
+            <div class="player-indi" id="김우준" co="2">
               <div class="player-face">
-                <img src="/sa/images/players/wjswlsdn.png" loading="lazy">
+                <img src="/sa/images/players/rladnwns.png" loading="lazy">
               </div>
               <div class="player-name">
-                <span>전진우</span>
+                <span>김우준</span>
+              </div>
+            </div>
+            <!-- ? -->
+            <div class="player-indi" id="최승현" co="2">
+              <div class="player-face">
+                <img src="/sa/images/players/chltmdgus.png" loading="lazy">
+              </div>
+              <div class="player-name">
+                <span>최승현</span>
               </div>
             </div>
             <!-- ? -->
@@ -443,32 +480,6 @@
             </div>
           </div>
           <div class="player">
-            <div class="player-indi" id="최승현" co="1">
-              <div class="player-face">
-                <img src="/sa/images/players/chltmdgus.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>최승현</span>
-              </div>
-            </div>
-            <!-- ? -->
-            <div class="player-indi" id="곽현호" co="1">
-              <div class="player-face">
-                <img src="/sa/images/players/rhkrgusgh.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>곽현호</span>
-              </div>
-            </div>
-            <!-- ? -->
-            <div class="player-indi" id="박대한" co="1">
-              <div class="player-face">
-                <img src="/sa/images/players/qkreogks.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>박대한</span>
-              </div>
-            </div>
             <!-- ? -->
             <div class="player-indi" id="박태민" co="1">
               <div class="player-face">
@@ -623,44 +634,29 @@
               </div>
             </div>
             <!-- ? -->
-            <div class="player-indi" id="한정진" co="1">
-              <div class="player-face">
-                <img src="/sa/images/players/gkswjdwls.png" loading="lazy">
-              </div>
-              <div class="player-name">
-                <span>한정진</span>
-              </div>
-            </div>
-            <!-- ? -->
           </div>
         </div>
       </div>
+    </div>
       <div class="footer">
         <div class="inner">
           <div class="fn-line">
             <span class="h-title">제공</span>
-            <span class="h-user"><a href="//gall.dcinside.com/board/view/?id=kart&no=3267786&exception_mode=recommend&page=1" target="_blank">연방봇</a></span>
+            <span class="h-user"><a href="//gall.dcinside.com/board/view/?id=kart&no=3267786&exception_mode=recommend&page=1">연방봇</a></span>
           </div>
           <div class="fn-line">
             <span class="h-title">제작</span>
-            <span class="h-user"><a href="//instagram.com/hyndf05" target="_blank">hyndf05</a></span>
+            <span class="h-user"><a href="//instagram.com/hyndf05">hyndf05</a></span>
           </div>
           <div class="fn-line">
             <span class="h-title">도움</span>
-            <span class="h-user"><a href="//instagram.com/drop_castle" target="_blank">떨어뜨린성</a></span>
+            <span class="h-user"><a href="//instagram.com/drop_castle">떨어뜨린성</a></span>
           </div>
           <div class="fn-line">
-            <span class="h-ver">KL MANAGER v1.0.2</span>
+            <span class="h-ver">KL MANAGER v1.0.1</span>
           </div>
         </div>
       </div>
-    </div>
-    <div class="my-coin">
-      <div class="my-coin-gg">
-        <img src="/sa/images/it/coin.png">
-        <span class="users-coin">16</span>
-      </div>
-    </div>
     <div class="tWrap">
       <div class="tHeader">
         <div class="tHeaderPlayer">

@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap');
 
+input, textarea { 
+  -webkit-user-select: auto;
+}
+
 * { 
   padding: 0; 
   margin: 0; 
   box-sizing: border-box; 
   scroll-behavior: smooth;
   font-family: 'IBM Plex Sans KR', sans-serif;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
@@ -132,6 +133,7 @@ body {
 
 .player-face img {
   height: 100%;
+  max-width: 109px;
   object-fit: cover;
 }
 

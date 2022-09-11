@@ -1,4 +1,4 @@
-var axCoin = 17;
+var axCoin = 16;
 var runner;
 var speedAce;
 var middle;
@@ -185,8 +185,8 @@ $('.retry').click(function(){
   $('body').removeClass('res');
   $('.tables td').html('<span></span>');
   $('.player-indi.vsn').removeClass('vsn');
-  $('.users-coin').text('17');
-  axCoin = 17;
+  $('.users-coin').text('16');
+  axCoin = 16;
   runner = '';
   speedAce = '';
   middle = '';
