@@ -25,17 +25,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&family=Maven+Pro:wght@400;500;600;700;800;900&family=Secular+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/sa/styles/app.css" />
+    <link rel="stylesheet" href="/sa/styles/app-likefifa.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script defer src="/sa/scripts/app.js"></script>
+    <script src="/sa/scripts/app-likefifa-gamers.js"></script>
+    <script defer src="/sa/scripts/app-likefifa.js"></script>
     <script defer src="/sa/scripts/download.js"></script>
     <script defer src="/sa/scripts/html2canvas.js"></script>
     <script defer src="/sa/scripts/locate.js"></script>
   </head>
   <body>
+    <div class="season" style="display:none"><span></span></div>
+    <div class="price" style="display:none"><span></span></div>
     <div class="help">
       <div class="inner">
         <span class="material-symbols-outlined">help</span>
+      </div>
+    </div>
+    <div class="tWrap sWrap">
+      <div class="tHeader">
+        <div class="tHeaderPlayer">
+          <span class="cPlayer"></span>
+        </div>
+        <div class="tHeaderIcon">
+          <span class="material-symbols-outlined">close</span>
+        </div>
+      </div>
+      <div class="tContainer">
+        <button class="pa" id="21s1">21 S1 <span>(<span class="neededCoin"></span>)</span></button>
+        <button class="pa" id="21s2">21 S2 <span>(<span class="neededCoin"></span>)</span></button>
+        <button class="pa" id="21s3">21 S3 <span>(<span class="neededCoin"></span>)</span></button>
+        <button class="pa" id="22s1">22 S1 <span>(<span class="neededCoin"></span>)</span></button>
+        <button class="pa" id="22s2">22 S2 <span>(<span class="neededCoin"></span>)</span></button>
       </div>
     </div>
     <div class="howtoplay">
@@ -658,10 +679,10 @@
     <div class="my-coin">
       <div class="my-coin-gg">
         <img src="/sa/images/it/coin.png">
-        <span class="users-coin">17</span>
+        <span class="users-coin"></span>
       </div>
     </div>
-    <div class="tWrap">
+    <div class="tWrap r">
       <div class="tHeader">
         <div class="tHeaderPlayer">
           <span class="cPlayer"></span>

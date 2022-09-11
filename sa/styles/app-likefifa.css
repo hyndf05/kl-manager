@@ -1,0 +1,15 @@
+body.vef .sWrap {
+  display: block;
+}
+
+.coin {
+  display: none;
+}
+
+.player {
+  padding-left: 6px;
+}
+
+.tHeaderPlayer {
+  position: relative;
+}
