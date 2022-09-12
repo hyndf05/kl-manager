@@ -1,0 +1,55 @@
+1. 리그 참여 버튼 누르면 즉시 파이어 베이스에 team id와 비밀번호 저장(team id 폴더 내부) [비밀번호는 유저에게 alert로 알려줌]
+
+
+
+
+
+2. 리그 매치 할때 방 생성하면 파이어 베이스에서 league/now 에 MatchId 생성
+
+
+
+
+3. 리그 매치 방 리스트를 보여줄때 파이어 베이스에서 league/now 에서 matchId 폴더 내부를 조회하여 teamId를 얻은후, team/teamId로 선수들 이름과 팀 이름을 가져와서 텍스트로 보여줌
+  ( div id를 matchId로 설정 )
+
+
+
+
+
+4. 리그 매치 방 들어갔을 때 team/teamId 폴더 내부를 조회하여 팀 이름, 선수 사진 url, 선수 이름을 보여줌
+
+
+
+
+
+5. 준비 눌렀을때 league/now/matchId/teamId의 ready 값을 1로 변경 (양측 둘다 1이면 밴픽 시작)
+
+
+
+
+
+6. league/maps 에서 trackName 값을 받아와서 보여줌 (div id를 trackName으로 설정)
+
+
+
+
+
+7.밴/픽을 누르면 league/now/matchId/banpick/ban/speed 또는 league/now/matchId/banpick/pick/speed 에 trackName을 추가 함
+
+
+
+
+
+8. 10초 동안 경기할떄 순위 변동 되도록 함 
+( 
+선수별 트랙 승률/캐리율을 분석한 값을 가져와서 +, -를 이용해서 숫자를 바꿈
+랜덤 하게 +1, +2 +3, +4 이런식으로 더 해줌
+
+그리고 100에 가장 가까운 선수대로 나열함.
+var data = [player1score,player2score,player3score,player4score];
+이런식으로 array 생성후 https://hohoya33.tistory.com/67 참고
+
+100에 가장 가까운 선수를 찾았으면 그 다음 선수를 찾음 (1등인 선수의 변수를 text값에 써준다음에 array에서 삭제)
+
+$(`div:nth-child(n) span`).text(player1score); 이런 방식으로 저장 ------> n을 이용한 까닭은 for 문을 이용해서 8번 반복할 것이기 때문
+)
