@@ -13,3 +13,7 @@ body.vef .sWrap {
 .tHeaderPlayer {
   position: relative;
 }
+
+.tables table {
+  width: 700px;
+}

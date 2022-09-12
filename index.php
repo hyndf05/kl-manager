@@ -24,13 +24,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&family=Maven+Pro:wght@400;500;600;700;800;900&family=Secular+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/sa/styles/app.css" />
+    <link rel="stylesheet" href="/sa/v1/styles/app.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script defer src="/sa/scripts/app.js"></script>
-    <script defer src="/sa/scripts/download.js"></script>
-    <script defer src="/sa/scripts/html2canvas.js"></script>
-    <script defer src="/sa/scripts/locate.js"></script>
+    <script defer src="/sa/v1/scripts/app.js"></script>
+    <script defer src="/sa/v1/scripts/download.js"></script>
+    <script defer src="/sa/v1/scripts/html2canvas.js"></script>
+    <script defer src="/sa/v1/scripts/locate.js"></script>
   </head>
   <body>
     <div class="help">
@@ -79,12 +79,12 @@
               <th>ITEM ACE</th>
             </thead>
             <tbody>
-              <td id="speedAce"><span></span></td>
-              <td id="runner"><span></span></td>
-              <td id="middle"><span></span></td>
-              <td id="sweeper"><span></span></td>
-              <td id="hybrid"><span></span></td>
-              <td id="itemAce"><span></span></td>
+              <td id="speedAce" xi=""><span></span></td>
+              <td id="runner" xi=""><span></span></td>
+              <td id="middle" xi=""><span></span></td>
+              <td id="sweeper" xi=""><span></span></td>
+              <td id="hybrid" xi=""><span></span></td>
+              <td id="itemAce" xi=""><span></span></td>
             </tbody>
           </table>
         </div>
@@ -648,6 +648,7 @@
           <div class="fn-line">
             <span class="h-title">도움</span>
             <span class="h-user"><a href="//instagram.com/drop_castle" target="_blank">떨어뜨린성</a></span>
+            <span class="h-user">박인수우승할때까지숨참는다</span>
           </div>
           <div class="fn-line">
             <span class="h-ver">KL MANAGER v1.0.2</span>

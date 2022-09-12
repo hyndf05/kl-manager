@@ -1,8 +1,6 @@
-var supportedCoin = '50';
+$('.users-coin').text('50');
 
-$('.users-coin').text(supportedCoin);
-
-var axCoin = supportedCoin;
+var axCoin = 50;
 var runner;
 var speedAce;
 var middle;
@@ -191,12 +189,12 @@ $('.total-player-btn').click(function(){
   if (tl > 0) {
 
 
-    var speedAceA = $('.tables td#speedAce').text();
-    var runnerA = $('.tables td#runner').text();
-    var middleA = $('.tables td#middle').text();
-    var sweeperA = $('.tables td#sweeper').text();
-    var hybridA = $('.tables td#hybrid').text();
-    var itemAceA = $('.tables td#itemAce').text();
+    var speedAceA = $('.tables td#speedAce').attr('xi');
+    var runnerA = $('.tables td#runner').attr('xi');
+    var middleA = $('.tables td#middle').attr('xi');
+    var sweeperA = $('.tables td#sweeper').attr('xi');
+    var hybridA = $('.tables td#hybrid').attr('xi');
+    var itemAceA = $('.tables td#itemAce').attr('xi');
 
     var sa = speedAceA.length;
     var rn = runnerA.length;
@@ -225,7 +223,7 @@ $('.total-player-btn').click(function(){
     }
 
     if (rn > 0) {
-      runnerImg = $(`.player-indi#${runnerA} img`).attr('src');;
+      runnerImg = $(`.player-indi#${runnerA} img`).attr('src');
     } else {
       runnerImg = '/sa/images/players/2022na.png';
     }
@@ -281,8 +279,8 @@ $('.retry').click(function(){
   $('body').removeClass('res');
   $('.tables td').html('<span></span>');
   $('.player-indi.vsn').removeClass('vsn');
-  $('.users-coin').text(supportedCoin);
-  axCoin = supportedCoin;
+  $('.users-coin').text('50');
+  axCoin = 50;
   runner = '';
   speedAce = '';
   middle = '';

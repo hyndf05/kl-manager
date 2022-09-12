@@ -486,3 +486,7 @@ body.helpi .howtoplay {
 .h-user a {
   color: #292929;
 }
+
+.h-user {
+  display: block;
+}

@@ -37,7 +37,7 @@
   <body>
     <div class="season" style="display:none"><span></span></div>
     <div class="price" style="display:none"><span></span></div>
-    <div class="help">
+    <div xi="help" class="help">
       <div class="inner">
         <span class="material-symbols-outlined">help</span>
       </div>
@@ -100,12 +100,12 @@
               <th>ITEM ACE</th>
             </thead>
             <tbody>
-              <td id="speedAce"><span></span></td>
-              <td id="runner"><span></span></td>
-              <td id="middle"><span></span></td>
-              <td id="sweeper"><span></span></td>
-              <td id="hybrid"><span></span></td>
-              <td id="itemAce"><span></span></td>
+              <td id="speedAce" xi=""><span></span></td>
+              <td id="runner" xi=""><span></span></td>
+              <td id="middle" xi=""><span></span></td>
+              <td id="sweeper" xi=""><span></span></td>
+              <td id="hybrid" xi=""><span></span></td>
+              <td id="itemAce" xi=""><span></span></td>
             </tbody>
           </table>
         </div>
