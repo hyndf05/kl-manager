@@ -1,23 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
-    <script type="text/javascript">
-      if(!wcs_add) var wcs_add = {};
-      wcs_add["wa"] = "1672a6cc7e2c990";
-      if(window.wcs) {
-        wcs_do();
-      }
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9FFG0DZKZ2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-9FFG0DZKZ2');
-    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>서비스 종료</title>
